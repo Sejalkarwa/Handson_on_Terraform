@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Allow only .tf files
+!*.tf
+
+# Allow image folder
+!images/
+!images/**
+
+# Do not ignore the .gitignore file itself
+!.gitignore
